@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device=width, initial-scale=1,shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!--jquery-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="table.css">
+	<title>Form</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="container ml-50" style="border: 1px solid black">
+			<h3 style="text-align: left; width: 100%; padding: 1rem 0; background-color: cyan; margin-top: 20px; color: white;"> Thông tin sản phẩm</h3>
+			<form>
+				<div class="row">
+					<div class="col-md-4 col-sm-12m col-12">
+						<div class="form-group">
+							<label>Mã sản phẩm: </label> 
+							<input type="text" name="" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12m col-12">
+						<div class="form-group">
+							<label>Tên sản phẩm: </label> 
+							<input type="text" name="" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12m col-12">
+						<div class="form-group">
+							<label>Số lượng: </label> 
+							<input type="text" name="" class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-sm-12m col-12">
+		 				<div class="form-group">
+							<label>Đơn giá: </label> 
+							<input type="text" name="" class="form-control">
+						</div></div>
+					<div class="col-md-6 col-sm-12m col-12">
+						<div class="form-group">
+						<label>Đơn Vị Tính</label>
+						<select class="form-control ">
+							<option value="v1">Chiếc</option>
+							<option value="v2">Đôi</option>
+							<option value="v3">Đôi 2</option>
+							<option value="v4">Đôi 3</option>
+						</select>
+					</div></div></div>
+				<div class="row">
+					<div class="col-md-12 col-sm-12m col-12">
+						<div class="form-group">
+						<label class="btn active float-left " style="height: 80px;display: block;box-sizing: border-box;			padding-top: 2em; background-color: cyan;">
+						<strong class="text-white"> Thuế :</strong>
+					<input type="checkbox" autocomplete="off" class="input input1" style="margin-left: 5px;" >
+					<span class="glyphicon glyphicon-ok text-white"> VAT(10%)</span>
+
+					<input type="checkbox" autocomplete="off" class="input" style="width: 17px;height: 17px;margin-left: 20px;">
+					<span class="glyphicon glyphicon-ok text-white"> Dịch Vụ(5%)</span>
+					<input type="checkbox" autocomplete="off" class="input" style="width: 17px;height: 17px;margin-left: 20px;">
+					<span class="glyphicon glyphicon-ok text-white"> Khác(20%)</span>
+				</label>
+					</div></div>
+				</div>
+				<button class="button text-white ml-4 mt-4 rounded" style="background: #28B04E;height: 50px;width: 150px;border: none;"><center>Tính Tiền</center></button>
+			</form>
+		</div>
+	</div>
+</body>
